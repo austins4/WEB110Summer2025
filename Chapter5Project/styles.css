@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    background: url('images/background.jpg') no-repeat center fixed;
+
+}
+
+header {
+    background: url('images/logo.png') no-repeat right;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #29485d;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #ff5733;
+}
+
+main {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 20px;
+    background-color: white;
+    width: 20%;
+    margin: auto;
+}
+
+.attraction-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+#contact {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #c7b2ae;
+}
+
+.web {
+    font-weight: bold;
+    color: red;
+}
+
+li {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-image: url('images/marker.gif');
+}
+
+h3 {
+    color: #29485d;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
