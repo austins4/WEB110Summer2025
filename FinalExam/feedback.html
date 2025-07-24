@@ -1,0 +1,84 @@
+<!--
+Author: Austin Smith
+Date: 2025-07-24
+Project: Thunder Feedback Form
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Thunder Feedback Form</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="details.html">Details</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="credits.html">Credits</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+
+      <label>Favorite Player:</label><br>
+      <input type="radio" name="player" value="shai"> Shai Gilgeous-Alexander<br>
+      <input type="radio" name="player" value="chet"> Chet Holmgren<br>
+	  <input type="radio" name="player" value="jalen"> Jalen Williams<br>
+	  <input type="radio" name="player" value="lu"> Lu Dort<br>
+	  <input type="radio" name="player" value="alex"> Alex Caruso<br>
+	  <input type="radio" name="player" value="aaron"> Aaron Wiggins<br>
+	  <input type="radio" name="player" value="isaiahh"> Isaiah Hartenstein<br>
+	  <input type="radio" name="player" value="isaiahj"> Isaiah Joe<br>
+	  <input type="radio" name="player" value="cason"> Cason Wallace<br>
+
+      <label>Achievements You Enjoyed:</label><br>
+      <input type="checkbox" name="achievements" value="nbachamp"> 2025 NBA Champs<br>
+      <input type="checkbox" name="achievements" value="mvp"> Shai Gilgeous-Alexander MVP<br>
+
+      <label for="gamedate">Last Game Attended:</label>
+      <input type="date" id="gamedate" name="gamedate"><br>
+
+      <label for="season">Favorite Season:</label>
+      <select id="season" name="season">
+        <option value="2024">2025</option>
+		<option value="2024">2024</option>
+        <option value="2023">2023</option>
+		<option value="2024">2022</option>
+		<option value="2024">2021</option>
+		<option value="2024">2020</option>
+        <option value="2017">2019</option>
+		<option value="2024">2018</option>
+		<option value="2024">2017</option>
+      </select><br>
+
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments"></textarea><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </main>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="details.html">Details</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="credits.html">Credits</a></li>
+      </ul>
+    </nav>
+  </footer>
+</div>
+</body>
+</html>
